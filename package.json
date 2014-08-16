@@ -1,0 +1,21 @@
+{
+  "name": "seqid",
+  "version": "0.0.0",
+  "description": "A simple rolling integer sequence id generator. Similar to TCP sequencing.",
+  "main": "seqid.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "id",
+    "squence"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~2.14.0"
+  }
+}
