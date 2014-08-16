@@ -1,7 +1,7 @@
 {
   "name": "seqid",
   "version": "0.0.0",
-  "description": "A simple rolling integer sequence id generator. Similar to TCP sequencing.",
+  "description": "Signed Integer sequential id generator. Similar to TCP sequencing.",
   "main": "seqid.js",
   "directories": {
     "test": "test"
@@ -17,5 +17,16 @@
   "license": "MIT",
   "devDependencies": {
     "tape": "~2.14.0"
-  }
+  },
+  "dependencies": {
+    "tape": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/seqid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/seqid/issues"
+  },
+  "homepage": "https://github.com/brycebaril/seqid"
 }
